@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/images/pattern-background-desktop.svg)  no-repeat ;
+    background-color: hsl(225, 100%, 94%);
+}
+
+main {
+    height: 39rem;
+    width: 27rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content{
+    text-align: center;
+    padding: 2rem 4rem;
+}
+.content p {
+    font-size: 1rem;
+    color: hsl(224, 23%, 55%)
+}
+
+
+.buy-music{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 4rem;
+    width: 19rem;
+    height: 6rem;
+    border-radius: 1rem;
+    background-color: hsl(225, 100%, 98%);
+}
+.buy-music a{
+    margin: 0.4rem 0;
+    margin-left: 6rem;
+}
+.buy-music img {
+    height: 3rem;
+    width: 3rem;
+}
+.buy-music > h4:nth-child(2) {
+    height: 2rem;
+   }
+
+   
+.ptp {
+    width: 27rem;
+    height: 3rem;
+}
+
+button {
+    height: 3rem;
+    width: 20rem;
+    background-color:   hsl(245, 75%, 52%);
+    border-radius: 1rem;
+    color: #fff;
+    box-shadow: 10px 10px hsl(225, 100%, 98%);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(261, 75%, 57%);
+}
+
+footer {
+       text-align: center;
+       margin: 2rem 0;
+       height: 6rem;
+}
+
+footer a {
+    color: #1a1b2f;   
+}
+footer section:last-child{
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 500px){
+    body {
+        background:url(/images/pattern-background-mobile.svg) no-repeat;
+        background-color: hsl(225, 100%, 94%);
+    }
+
+    main {
+        max-width: 26rem;
+        max-height: 40rem;
+    }
+
+    button{
+        max-width: 15rem;
+    }
+    
+}
