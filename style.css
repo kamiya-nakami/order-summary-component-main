@@ -21,8 +21,9 @@ main {
     background-color: #fff;
 }
 
-a {
+.buy-music a:hover {
     text-decoration: none;
+    color: hsl(224, 23%, 55%);
 }
 
 .content{
@@ -39,8 +40,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 4rem;
-    width: 19rem;
+    margin: 0 2rem;
+    width: 22rem;
     height: 6rem;
     border-radius: 1rem;
     background-color: hsl(225, 100%, 98%);
@@ -84,7 +85,10 @@ footer {
 }
 
 footer a {
-    color: #1a1b2f;   
+    color: #545564;   
+}
+footer a:hover {
+    color: #1a1b2f;
 }
 footer section:last-child{
     margin-top: 2rem;
